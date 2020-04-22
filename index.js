@@ -77,7 +77,7 @@ app.post("/users", AdminAuthorization, async (req, res) => {
 });
 
 mongoose
-  .connect("mongodb://gwuah:gwuah2018@ds253871.mlab.com:53871/watcher", {
+  .connect("mongodb://testAccount:random2018@ds253871.mlab.com:53871/watcher", {
     useUnifiedTopology: true,
   })
   .then(async () => {
